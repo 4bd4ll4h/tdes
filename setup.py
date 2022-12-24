@@ -17,15 +17,9 @@ install_requires=[
         ]
     },
     classifiers=[
-        "Programmig language :: Python :: 3",
-        "Programmig language :: Python :: 3.8",
-        "Programmig language :: Python :: 3.1",
-        "Programmig language :: Python :: 3.2",
-        "Programmig language :: Python :: 3.7",
-        "Programmig language :: Python :: 3.x",
-        "Development Status :: 4 - Beta",
         "Topic :: Security :: Cryptography",
-
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8"
     ],
     url="https://github.com/4bd4ll4h/tdes",
     author="4bd4ll4h",
