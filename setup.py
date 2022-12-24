@@ -5,7 +5,7 @@ with open("README.md","r") as fh:
 
 setup(name="tdes",version='0.0.1',
 description="encrypting and decrypting files tool using triple DES",
-package_dir={'': 'src'}, py_modules=["main","module","module.DES3","module.utils","DES3","utils"],
+package_dir={'': 'src'}, py_modules=["main","module.DES3","module.utils"],
 long_description=long_description,
 long_description_content_type="text/markdown",
 install_requires=[
