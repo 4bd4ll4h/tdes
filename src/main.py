@@ -56,7 +56,7 @@ def encryptall(path,key1=None,key2=None,key3=None):
     if key1 and key2 and key3:
         des3.DES3_encrypt_all3k(path,key1.encode(),key2.encode(), key3.encode())
     elif key1 and key2:
-        des3.DES3_encrypt2k(path,key1.encode(),key2.encode())
+        des3.DES3_encrypt_all2k(path,key1.encode(),key2.encode())
     else:
         des3.DES3_encrypt_all(path)
 
