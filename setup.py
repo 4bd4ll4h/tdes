@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md","r") as fh:
     long_description=fh.read()
 
-setup(name="tdes",version='0.0.1',
+setup(name="tdes",version='0.0.2',
 description="encrypting and decrypting files tool using triple DES",
 package_dir={'': 'src'}, py_modules=["main","module.DES3","module.utils"],
 long_description=long_description,
